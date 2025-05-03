@@ -6,7 +6,7 @@
     "dev": "NEXT_DISABLE_TURBOPACK=1 next dev",
     "build": "next build",
     "start": "next start",
-    "test": "jest --watch",
+    "test": "jest",
     "lint": "next lint"
   },
   "dependencies": {
