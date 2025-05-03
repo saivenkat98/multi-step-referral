@@ -1,4 +1,6 @@
-export async function submitReferral(data: any): Promise<boolean> {
+import { ReferralFormData } from '@/types/referral';
+
+export async function submitReferral(data: ReferralFormData): Promise<boolean> {
     try {
       const res = await fetch('/api/submit-referral', {
         method: 'POST',

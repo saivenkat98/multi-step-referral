@@ -1,4 +1,5 @@
 import '../styles/globals.css';
+import React from 'react';
 import { ReferralProvider } from '../context/ReferralContext';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';

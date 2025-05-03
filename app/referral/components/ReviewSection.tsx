@@ -1,3 +1,6 @@
+
+import React from 'react';
+
 interface ReviewSectionProps {
     title: string;
     data: { [key: string]: string | undefined };

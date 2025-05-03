@@ -1,5 +1,6 @@
 "use client";
 
+import React from 'react';
 import { useReferral } from "../../../context/ReferralContext";
 import ReviewSection from "../components/ReviewSection";
 import { useRouter } from "next/navigation";
